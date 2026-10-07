@@ -1,0 +1,11 @@
+{
+  "name": "ai-food-recommender-root",
+  "version": "1.0.0",
+  "description": "AI Food Recommendation & Multi-Platform Price Comparison Platform (MERN Stack)",
+  "scripts": {
+    "start:backend": "cd backend && node server.js",
+    "start:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && node data/seed.js",
+    "test:backend": "cd backend && node test_api.js"
+  }
+}
